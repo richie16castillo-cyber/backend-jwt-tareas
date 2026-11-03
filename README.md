@@ -24,5 +24,5 @@ Backend desarrollado en **Node.js** y **Express** con base de datos **MongoDB**.
 
 1. Clona este repositorio o descárgalo:
    ```bash
-   git clone git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-   cd TU_REPOSITORIO
+git clone https://github.com/richie16castillo-cyber/backend-jwt-tareas.git
+cd backend-jwt-tareas
