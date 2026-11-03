@@ -15,6 +15,10 @@ const protect = async (req, res, next) => {
 
             //obtener toda la info del usuario
             req.user = await User.findById(decoded.id_usuario).select('-password')
+            if (!req.user) {
+                res.status(401)
+                throw new Error('Usuario no encontrado')
+}
 
             next()
 
